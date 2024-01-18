@@ -38,7 +38,7 @@ jobs:
             - name: 🧪Cypress E2E Regression Test in Electron
               uses: cypress-io/github-action@v4
               with:
-                  browser: electron
+                  browser: chrome
                   command: | #NO EDITAR. Es para correr todas las pruebas del Repo.
                       yarn cypress run
 
